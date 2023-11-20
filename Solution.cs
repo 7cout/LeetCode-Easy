@@ -43,5 +43,18 @@ namespace LeetCode_Easy
             }
             return indices;
         }
+
+        public bool IsPalindrome(int x)
+        {
+            if (x < 0) return false;
+            int reverse = 0;
+            int copy = x;
+            while (copy > 0) 
+            {
+                reverse = reverse*10 + copy % 10;
+                copy = copy / 10;
+            }
+            return reverse == x;
+        }
     }
 }

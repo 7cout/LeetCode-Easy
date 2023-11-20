@@ -35,6 +35,10 @@ namespace LeetCode_Easy
             Debug.Assert(answer.SequenceEqual(result));
             Console.WriteLine("Тесты пройдены!");
 
+            Debug.Assert(solution.IsPalindrome(121) == true);
+            Debug.Assert(solution.IsPalindrome(-121) == false);
+            Debug.Assert(solution.IsPalindrome(10) == false);
+
             Console.WriteLine("Нажмит Enter для завершения работы программы");
             Console.Read();
         }
