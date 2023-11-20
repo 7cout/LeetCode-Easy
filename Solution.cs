@@ -56,5 +56,16 @@ namespace LeetCode_Easy
             }
             return reverse == x;
         }
+
+        public int MySqrt(int x)
+        {
+            if (x <= 1) { return 0; }
+            double sqrt = x / 2;
+            while (sqrt * sqrt - x > 0.5)
+            {
+                sqrt = (sqrt + x / sqrt) / 2;
+            }
+            return (int)sqrt;
+        }
     }
 }

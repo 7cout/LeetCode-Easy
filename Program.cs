@@ -39,6 +39,9 @@ namespace LeetCode_Easy
             Debug.Assert(solution.IsPalindrome(-121) == false);
             Debug.Assert(solution.IsPalindrome(10) == false);
 
+            Debug.Assert(solution.MySqrt(4) == 2);
+            Debug.Assert(solution.MySqrt(8) == 2);
+
             Console.WriteLine("Нажмит Enter для завершения работы программы");
             Console.Read();
         }
