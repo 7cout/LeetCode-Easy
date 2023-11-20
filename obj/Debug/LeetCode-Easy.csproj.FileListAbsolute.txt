@@ -1,0 +1,7 @@
+E:\LeetCode\LeetCode-Easy\bin\Debug\LeetCode-Easy.exe.config
+E:\LeetCode\LeetCode-Easy\bin\Debug\LeetCode-Easy.exe
+E:\LeetCode\LeetCode-Easy\bin\Debug\LeetCode-Easy.pdb
+E:\LeetCode\LeetCode-Easy\obj\Debug\LeetCode-Easy.csproj.AssemblyReference.cache
+E:\LeetCode\LeetCode-Easy\obj\Debug\LeetCode-Easy.csproj.CoreCompileInputs.cache
+E:\LeetCode\LeetCode-Easy\obj\Debug\LeetCode-Easy.exe
+E:\LeetCode\LeetCode-Easy\obj\Debug\LeetCode-Easy.pdb
