@@ -42,6 +42,11 @@ namespace LeetCode_Easy
             Debug.Assert(solution.MySqrt(4) == 2);
             Debug.Assert(solution.MySqrt(8) == 2);
 
+            Debug.Assert(solution.IsPalindrome("A man, a plan, a canal: Panama") == true);
+            Debug.Assert(solution.IsPalindrome("race a car") == false);
+            Debug.Assert(solution.IsPalindrome("") == true);
+            Debug.Assert(solution.IsPalindrome("0P") == false);
+
             Console.WriteLine("Нажмит Enter для завершения работы программы");
             Console.Read();
         }

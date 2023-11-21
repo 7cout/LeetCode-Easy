@@ -67,5 +67,19 @@ namespace LeetCode_Easy
             }
             return (int)sqrt;
         }
+
+        public bool IsPalindrome(string s)
+        {
+            char[] charArray = s.ToLower().Where(char.IsLetterOrDigit).ToArray();
+            int left = 0;
+            int right = charArray.Length - 1;
+            while (left < right)
+            {
+                if (charArray[left] != charArray[right]) { return false; }
+                left++;
+                right--;
+            }
+            return true;
+        }
     }
 }
